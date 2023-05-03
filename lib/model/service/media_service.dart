@@ -18,6 +18,7 @@ class MediaService extends BaseService {
     return responseJson;
   }
 
+
   @visibleForTesting
   dynamic returnResponse(http.Response response) {
     switch (response.statusCode) {
